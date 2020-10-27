@@ -37,20 +37,17 @@ have used the same class to instantiate the connections and properties.
 
 #### **Instructions for Running the project**
  
- 1) The ZIP file contains one folder
-    - ServiceNowProjectAssignment
+1) Open the project in IDE.
 
-2) Extract this folder on a specific location on your computer.
+2) Ensure that your system has correct setup for JDK and Maven.
 
 3) Download chromedriver from here: https://chromedriver.storage.googleapis.com/index.html?path=86.0.4240.22/
 
-4) Ensure that your system has correct setup for JDK and Maven.
+4) Open ServiceNowProjectAssignment as a maven project.
 
-5) Open ServiceNowProjectAssignment as a maven project.
+5) Once you open the project in IDE (just a side not that i'm using IntelliJ), navigate to src\test\java\Utils\TestBase.java.
 
-6) Once you open the project in IDE (just a side not that i'm using IntelliJ), navigate to src\test\java\Utils\TestBase.java.
-
-7) Update driver location in System.setProperty method to the path where you have stored chrome.exe downloaded in Step 3.  
+6) Update driver location in System.setProperty method to the path where you have stored chrome.exe downloaded in Step 3.  
 
 7) Go to the terminal and run `mvn test`
 
