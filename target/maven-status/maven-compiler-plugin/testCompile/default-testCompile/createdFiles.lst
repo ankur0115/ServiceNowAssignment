@@ -1,0 +1,5 @@
+StepDefinitions\purchaseStepDef.class
+Runner\TestRunner.class
+Pages\CheckoutPages.class
+Pages\HomePage.class
+Utils\TestBase.class
