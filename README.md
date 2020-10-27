@@ -37,21 +37,19 @@ have used the same class to instantiate the connections and properties.
 
 #### **Instructions for Running the project**
  
-1) Open the project in IDE.
+1) Open the project in IDE as Maven project
 
 2) Ensure that your system has correct setup for JDK and Maven.
 
 3) Download chromedriver from here: https://chromedriver.storage.googleapis.com/index.html?path=86.0.4240.22/
 
-4) Open ServiceNowProjectAssignment as a maven project.
+4) Once you open the project in IDE (just a side not that i'm using IntelliJ), navigate to src\test\java\Utils\TestBase.java.
 
-5) Once you open the project in IDE (just a side not that i'm using IntelliJ), navigate to src\test\java\Utils\TestBase.java.
+5) Update driver location in System.setProperty method to the path where you have stored chrome.exe downloaded in Step 3.  
 
-6) Update driver location in System.setProperty method to the path where you have stored chrome.exe downloaded in Step 3.  
+6) Go to the terminal and run `mvn test`
 
-7) Go to the terminal and run `mvn test`
-
-8) You can also just right click on TestRunner class and run it. It will start test execution.
+7) You can also just right click on TestRunner class and run it. It will start test execution.
 
 ##### **Design Improvements**
 1) We can use webdrivermanager dependency from github to get rid of storing the browser driver
